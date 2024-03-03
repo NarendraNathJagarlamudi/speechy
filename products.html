@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speechy</title>
+    <link rel="icon" href="images/speech-icon-2797263_960_720.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      #android {
+        width: 300px;
+        height: 300px;
+        margin: 50px auto;
+        position: relative;
+      }
+      #head {
+        border-radius: 65px 65px 0 0;
+        width: 130px;
+        height: 65px;
+        margin: 0 auto;
+        background-color: #a4ca39;
+      }
+      .antenna {
+        width: 4px;
+        height: 30px;
+        position: absolute;
+        top: -12px;
+        border-radius: 5px;
+        background-color: #a4ca39;
+      }
+      .antenna.a1 {
+        left: 36%;
+        transform: rotate(330deg);
+      }
+      .antenna.a2 {
+        left: 61%;
+        transform: rotate(33deg);
+      }
+      .eyes {
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 29px;
+        border-radius: 50%;
+        background: #fff;
+      }
+      .eyes.a1 {
+        left: 38%;
+      }
+      .eyes.a2 {
+        left: 58%;
+      }
+      #body {
+        border-radius: 0 0 15px 15px;
+        width: 130px;
+        height: 112px;
+        margin: 4px auto;
+        background-color: #a4ca39;
+        position: relative;
+      }
+      .shape {
+        width: 30px;
+        height: 90px;
+        border-radius: 30px;
+        background-color: #a4ca39;
+        position: absolute;
+        top: -3px;
+      }
+      .shape.b1 {
+        left: -37px;
+      }
+      .shape.b2 {
+        right: -36px;
+      }
+      .shape.b3 {
+        top: 63%;
+        left: 25px;
+      }
+      .shape.b4 {
+        top: 63%;
+        right: 25px;
+      }
+    </style>
+  </head>
+  <body class="main">
+    <!-- navigation Section -->
+    <nav class="navigation">
+      <div class="navigation__container">
+        <a href="index.html" id="navigation__logo">
+          <img
+            src="images/full_logo_black.png"
+            alt=""
+            style="width: 80px; height: 80px"
+        /></a>
+        <div class="navigation__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navigation__menu">
+          <li class="navigation__item">
+            <a href="index.html" class="navigation__links">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="testimonials.html" class="navigation__links"
+              >Testimonials</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="products.html" class="navigation__links">Products</a>
+          </li>
+          <li class="navigation__item">
+            <a href="about.html" class="navigation__links">About</a>
+          </li>
+          <li class="navigation__btn">
+            <a href="index.html" class="button">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="blog-section">
+      <div class="section-content blog">
+        <div class="title">
+          <h2 style="color: rgb(30, 30, 176)">App download page for mobile</h2>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="image-section">
+              <img
+                src="images/news_scrool.jpg"
+                alt="news-scrolling-img"
+                class="scroll-img"
+              />
+            </div>
+            <div class="article">
+              <h4>IOS</h4>
+              <br />
+              <i class="fa fa-apple" style="font-size: 300px; color: black"></i>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+            <div class="blog-view">
+              <a href="" class="button">Click to download!</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-section">
+              <img
+                src="images/news_scrool.jpg"
+                alt="news-scrolling-img"
+                class="scroll-img"
+              />
+            </div>
+            <div class="article">
+              <h4>Android</h4>
+
+              <div id="android">
+                <div id="head">
+                  <div class="antenna a1"></div>
+                  <div class="antenna a2"></div>
+                  <div class="eyes a1"></div>
+                  <div class="eyes a2"></div>
+                </div>
+                <div id="body">
+                  <div class="shape b1"></div>
+                  <div class="shape b2"></div>
+                  <div class="shape b3"></div>
+                  <div class="shape b4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-view">
+              <a href="" class="button">Click to download!</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-section">
+              <img
+                src="images/news_scrool.jpg"
+                alt="scrolling-img"
+                class="scroll-img"
+              />
+            </div>
+            <div class="article">
+              <h4>Source Code</h4>
+              <br />
+              <img
+                src="images/binary-code-g5afb767f8_1920.jpeg"
+                alt="binary-image"
+              />
+              <br />
+              <br /><br /><br /><br /><br /><br /><br />
+              <br />
+            </div>
+            <div class="blog-view">
+              <a href="" class="button">Click to download!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="index.html">Instagram</a> <a href="/">Facebook</a>
+            <a href="index.html">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="media">
+        <div class="media--wrap">
+          <div class="footer__logo">
+            <a href="index.html" id="footer__logo"
+              ><img
+                src="images/full_logo_black.png"
+                alt=""
+                style="width: 80px; height: 80px"
+            /></a>
+          </div>
+          <p class="website__rights" style="margin: 10px">
+            © Speechy 2022. All rights reserved <br />
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+              ><img
+                alt="Creative Commons License"
+                style="border-width: 0"
+                src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
+            ><br />This work is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+              >Creative Commons Attribution 4.0 International License</a
+            >
+          </p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="//www.youtube.com/"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="index.html"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
